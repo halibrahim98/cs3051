@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(81, 207, 56);
+}
+cory {
+  color: blue;
+}
+p {
+  color: red;
+}
+.row {
+    width:100%;
+    display:flex;
+}
+.col {width:8.33%}
