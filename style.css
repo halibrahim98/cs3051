@@ -1,11 +1,49 @@
 body {
-  background-color: rgb(81, 207, 56);
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/HD-Black-Marble-Images.jpg");
+
 }
-cory {
-  color: blue;
+a{
+    text-align: center;
 }
 p {
-  color: red;
+  color: gold;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    color: gold;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li {
+    color: gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: black;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+li a {
+  display: block;
+  color: gold;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: goldenrod;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: gold;
+  color: white;
 }
 .row {
     width:100%;
